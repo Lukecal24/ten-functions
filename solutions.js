@@ -70,6 +70,6 @@ function and(input1,input2){
 }
 //10
 function concat(input1,input2){
-    let concatResult = input1 + input2;
+    let concatResult = ""+ input1 + "" + input2 + "";
     return concatResult;
 }
